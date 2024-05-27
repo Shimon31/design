@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/home_Screen_Full">
+    <fragment
+        android:id="@+id/homeScreen1"
+        android:name="com.example.rockeydesign.HomeScreen1"
+        android:label="fragment_home_screen1"
+        tools:layout="@layout/fragment_home_screen1" />
+    <fragment
+        android:id="@+id/home_Screen_Full"
+        android:name="com.example.rockeydesign.Home_Screen_Full"
+        android:label="fragment_home__screen__full"
+        tools:layout="@layout/fragment_home__screen__full" />
+</navigation>
